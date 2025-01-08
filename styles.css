@@ -6,7 +6,7 @@ body {
     height: 100%;
     padding-top: 100px;
     margin: 0;
-    font-family: "Audiowide", sans-serif;
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 div {
     display: block;
@@ -14,7 +14,10 @@ div {
 }
 h1 {
     padding: 10px 10px;
-    margin: 0;
+    margin: 5vh;
+    color: white;
+    text-align: center;
+    font-size: 40px;
 }
 ul {
     position: fixed;
@@ -58,8 +61,8 @@ li a {
 }
 p {
     text-align: center;
-    color: cornflowerblue;
-    margin: 200px;
+    color: rgb(255, 255, 255);
+    margin: 2.5vh 30vh 2.5vh 30vh;
     font-size: 30px;
 }
 .language {
@@ -72,7 +75,7 @@ p {
 .language p {
     font-size: 20px;
 }
-.language-container {
+.container {
     padding: 0 2.5em;
     justify-content: center;
     flex-wrap: wrap;
@@ -81,12 +84,25 @@ p {
 .language-item-icon {
     height: 80px;
     width: 80px;
+    margin: 40px;
 }
 .icon-cpp {
     background-image: url("./images/6132222.png");
+}
+.icon-cs {
+    background-image: url("./images/c-sharp-icon.png");
 }
 .image-center {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+}
+.icon-me {
+    background-image: url("./images/kester logo-01.png");
+    background-size: 300px;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
 }
