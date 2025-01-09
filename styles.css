@@ -97,6 +97,21 @@ p {
 .icon-unreal-eng {
     background-image: url("./images/unreal engine logo.png");
 }
+.icon-gtav {
+    background-image: url("./images/actual_1364906194.jpg");
+    height: 400px;
+    width: 250px;
+}
+.icon-rdr2 {
+    background-image: url("./images/rdr2.jpg");
+    height: 400px;
+    width: 250px;
+}
+.icon-gta6 {
+    background-image: url("./images/gtavi.jpg");
+    height: 400px;
+    width: 250px;
+}
 .image-center {
     background-size: contain;
     background-position: center center;
