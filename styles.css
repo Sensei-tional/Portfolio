@@ -81,16 +81,21 @@ p {
     flex-wrap: wrap;
     display: flex;
 }
-.language-item-icon {
+.icon-size {
     height: 80px;
     width: 80px;
-    margin: 40px;
 }
 .icon-cpp {
     background-image: url("./images/6132222.png");
 }
 .icon-cs {
     background-image: url("./images/c-sharp-icon.png");
+}
+.icon-unity-eng {
+    background-image: url("./images/unity engine logo.png");
+}
+.icon-unreal-eng {
+    background-image: url("./images/unreal engine logo.png");
 }
 .image-center {
     background-size: contain;
