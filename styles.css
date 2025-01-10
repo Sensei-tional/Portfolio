@@ -1,10 +1,12 @@
 *{box-sizing: border-box;}
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    background: linear-gradient(to bottom,rgb(75, 75, 75) 20%,rgb(0, 0, 0)60%);
+    background: linear-gradient(to bottom,rgb(120, 120, 120) 20%,rgb(75, 75, 75)60%);
     color: aqua;
     height: 100%;
-    padding-top: 100px;
     margin: 0;
     font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -17,22 +19,25 @@ h1 {
     margin: 5vh;
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
-ul {
+.NavBar {
     position: fixed;
     top: 0;
     width: 100%;
     height: 100px;
-    list-style-type: none;
     padding: 0;
     overflow: hidden;
     margin: 0;
     background-color: #00000099;
+    list-style: none;
 }
-li {
-    float: right;
-    height: 100%;
+.Skill-List {
+    color: white;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    list-style: none;
 }
 li a {
     display: block;
@@ -40,11 +45,15 @@ li a {
     text-align: center;
     font-size: 35px;
     padding: 30px 30px;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .name {
     float: left;
+}
+.nav {
+    float: right;
+    height: 100%;
+
 }
 .nav a:hover:not(.active) {
     background-color: aquamarine;
@@ -63,7 +72,7 @@ p {
     text-align: center;
     color: rgb(255, 255, 255);
     margin: 2.5vh 30vh 2.5vh 30vh;
-    font-size: 30px;
+    font-size: 40px;
 }
 .language {
     text-align: center;
@@ -82,14 +91,20 @@ p {
     display: flex;
 }
 .icon-size {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
 }
 .icon-cpp {
     background-image: url("./images/6132222.png");
 }
 .icon-cs {
     background-image: url("./images/c-sharp-icon.png");
+}
+.icon-html {
+    background-image: url("./images/html.png");
+}
+.icon-css {
+    background-image: url("./images/css.png");
 }
 .icon-unity-eng {
     background-image: url("./images/unity engine logo.png");
@@ -112,17 +127,27 @@ p {
     height: 400px;
     width: 250px;
 }
+.icon-me {
+    background-image: url("./images/kester logo-01.png");
+    background-size: 338px;
+    height: 438px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
 .image-center {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-.icon-me {
-    background-image: url("./images/kester logo-01.png");
-    background-size: 300px;
-    height: 400px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
+
+.intro {
+    padding-top: 100px; 
+}
+#Projects {
+    padding-top: 40px;
+}
+#Skills {
+    padding-top: 40px;
 }
