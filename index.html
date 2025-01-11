@@ -1,82 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kester McPherson | Gameplay Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./images/kester logo-01.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-</head>    
-<body>
-    <section id="About Me">
-        <div class="intro">
-            <ul class="NavBar">
-                <li class="name"><a href="#About Me">Kester McPherson</a></li>
-                <li class="nav"><a href="#Contact">Contact</a></li>
-                <li class="nav"><a href="#Skills">Skills</a></li>
-                <li class="nav"><a href="#Projects">Projects</a></li>
-            </ul>
-            <div class="icon-me"></div>
-        </div>
-    
-        <h1>About Me</h1>
-        <p>
-            I have spent the past 2 year developing on myself to  further strength my skillset so that I would be able to cement myself within
-            the Games Industry. To do this, I have been learning and understanding the standards to which the industry use and making sure to
-            excel in my endeavours inside and outside of work by committing myself to learn from others around me and becoming more proficient
-            at self-teaching. This is something that I feel like I have achieved and I will continue to
-            push in the years to come.
-        </p>
-    </section>
-
-    <section id="Projects">
-        <div>
-            <h1>Professional Projects</h1>
-            <div class="container">
-                <div class="icon-gta6 image-center"></div>
-                <div class="icon-gtav image-center"></div>
-                <div class="icon-rdr2 image-center"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kester McPherson | Gameplay Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="./images/kester logo-01.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    </head>    
+    <body>
+        <section id="About Me">
+            <div class="intro">
+                <ul class="NavBar">
+                    <li class="name"><a href="#About Me">Kester McPherson</a></li>
+                    <li class="nav"><a href="#Contact">Contact</a></li>
+                    <li class="nav"><a href="#Skills">Skills</a></li>
+                    <li class="nav"><a href="#Projects">Projects</a></li>
+                </ul>
+                <div class="icon-me"></div>
             </div>
-        </div>
-        <h1>Personal Projects</h1>
-    </section>
+        
+            <h1>About Me</h1>
+            <p>
+                I have spent the past 2 year developing on myself to  further strength my skillset so that I would be able to cement myself within
+                the Games Industry. To do this, I have been learning and understanding the standards to which the industry use and making sure to
+                excel in my endeavours inside and outside of work by committing myself to learn from others around me and becoming more proficient
+                at self-teaching. This is something that I feel like I have achieved and I will continue to
+                push in the years to come.
+            </p>
+        </section>
 
-    <section id="Skills">
-        <h1>Skills</h1>
-        <div>
-            <ul class="Skill-List">
-                <li>User Experience</li>
-                <li>OOP</li>
-                <li>Design Documentation</li>
-                <li>Team Player</li>
-                <li>Excellent Verbal & Written Communication</li>
-                <li>Quick Learner</li>
-                <li>Self-Motivated</li>
-            </ul>
-        </div>
+        <section id="Projects">
+            <div>
+                <h1>Professional Projects</h1>
+                <div class="professional-container">
+                    <div class="icon-gta6 image-center"></div>
+                    <div class="icon-gtav image-center"></div>
+                    <div class="icon-rdr2 image-center"></div>
+                </div>
+            </div>
+            <h1>Personal Projects</h1>
+            <div class="project-container">
+                <div class="MySlides fade">
+                    <div class="Mandem image-center"></div>
+                    <div class="caption">
+                        <p class="desc">
+                            This project "Mandem" was my first introduction 
+                            to the Unreal Engine and is a simple Twin-Stick 
+                            shooter with 2 levels. 1 is an endless mode and 
+                            the other is a very simple level with simple 
+                            enemies.
+                        </p>
+                    </div>
+                </div>
+                <div class="MySlides fade">
+                    <div class="Tower image-center"></div>
+                    <div class="caption">
+                        <p class="desc">
+                            This project was a group VR project and our first 
+                            introduction into VR development with the Oculus 
+                            Rift. My responsiblity was project management and 
+                            some of the gameplay aspects.
+                        </p>
+                    </div>
+                </div>
+                <div class="MySlides fade">
+                    <div class="LAS image-center"></div>
+                    <div class="caption">
+                        <p class="desc">
+                            This project was a test that I had prepared for 
+                            a Mediatonic Gameplay Programmer test role. This 
+                            was one of my first project that has a breif that 
+                            I had to follow with a specific brief in mind.
+                        </p>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <div class="button-github">
+                <button class="github"><a href="https://github.com/Sensei-tional?tab=repositories"> GitHub Repository</a></button>
+            </div>
+        </section>
 
-        <h1>Languages</h1>
-        <div class="container">
-                <div class="icon-size icon-cpp image-center"></div>
-                <div class="icon-size icon-cs image-center"></div>
-                <div class="icon-size icon-html image-center"></div>
-                <div class="icon-size icon-css image-center"></div>
-        </div>
-
-        <h1>Engines</h1>
-        <div class="container">
-            <div class="icon-size icon-unreal-eng image-center"></div>
-            <div class="icon-size icon-unity-eng image-center"></div>
-        </div>
-    </section>
-    
-    <section id="Contact">
-        <div class="footer" id="Contact">
-            <p>Created by Kester McPherson (shout out the KND)</p>
-        </div>
-    </section>
-
+        <section id="Skills">
+            <h1>Skills</h1>
+            <div>
+                <ul class="Skill-List">
+                    <li>User Experience</li>
+                    <li>OOP</li>
+                    <li>Design Documentation</li>
+                    <li>Team Player</li>
+                    <li>Excellent Verbal & Written Communication</li>
+                    <li>Quick Learner</li>
+                    <li>Self-Motivated</li>
+                </ul>
+            </div>
+            <h1>Languages</h1>
+            <div class="language-container">
+                    <div class="icon-size icon-cpp image-center"></div>
+                    <div class="icon-size icon-cs image-center"></div>
+                    <div class="icon-size icon-html image-center"></div>
+                    <div class="icon-size icon-css image-center"></div>
+            </div>
+            <h1>Engines</h1>
+            <div class="container">
+                <div class="icon-size icon-unreal-eng image-center"></div>
+                <div class="icon-size icon-unity-eng image-center"></div>
+            </div>
+        </section>
+        
+        <section id="Contact">
+            <div class="footer" id="Contact">
+                <p>Initialised by Kester McPherson</p>
+            </div>
+        </section>
     <script src="script.js"></script>
-</body>
+    </body>
 </html>
