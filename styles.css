@@ -35,10 +35,16 @@ h1 {
 .Skill-List {
     color: white;
     font-size: 40px;
-    display: block;
+    display: inline-table;
     text-align: center;
     list-style: none;
 }
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+}
+
 li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -74,6 +80,7 @@ p {
     color: rgb(255, 255, 255);
     margin: 2.5vh 15vh 2.5vh 15vh;
     font-size: 40px;
+    width:auto;
 }
 .language {
     text-align: center;
@@ -117,6 +124,24 @@ p {
 }
 .icon-unreal-eng {
     background-image: url("./images/unreal engine logo.png");
+}
+.icon-visualstudio {
+    background-image: url("./images/visualstudio.png");
+}
+.icon-visualcode {
+    background-image: url("./images/visualcode.png");
+}
+.icon-android {
+    background-image: url("./images/Android.png");
+}
+.icon-playstation {
+    background-image: url("./images/playstation.png");
+}
+.icon-windows {
+    background-image: url("./images/Windows11.png");
+}
+.icon-oculus {
+    background-image: url("./images/Oculus.png");
 }
 .icon-gtav {
     background-image: url("./images/actual_1364906194.jpg");
